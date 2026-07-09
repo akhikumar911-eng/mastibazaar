@@ -1,0 +1,53 @@
+{
+  "id": "/",
+  "name": "MastiBazaar — Premium D2C Fashion",
+  "short_name": "MastiBazaar",
+  "description": "Shop premium fashion, footwear, home, and lifestyle — Cash on Delivery across India.",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "theme_color": "#022C22",
+  "background_color": "#FFF8ED",
+  "categories": ["shopping", "lifestyle", "fashion"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/mastibazaar-logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/mastibazaar-logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/mastibazaar-logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My Orders",
+      "short_name": "Orders",
+      "description": "Track your MastiBazaar orders",
+      "url": "/?source=pwa&open=orders",
+      "icons": [{ "src": "/mastibazaar-logo-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Return a Product",
+      "short_name": "Return",
+      "description": "File a return request",
+      "url": "/?source=pwa&open=return",
+      "icons": [{ "src": "/mastibazaar-logo-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

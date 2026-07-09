@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 640">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="0.45" stop-color="#C026D3"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1F1235"/>
+      <stop offset="1" stop-color="#0B0416"/>
+    </linearGradient>
+    <linearGradient id="mface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBBF24"/>
+      <stop offset="0.55" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#C026D3"/>
+    </linearGradient>
+    <linearGradient id="mshadow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C2D92"/>
+      <stop offset="1" stop-color="#3B0764"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="492" height="492" rx="112" fill="url(#plate)" stroke="url(#frame)" stroke-width="22"/>
+  <rect x="38" y="38" width="436" height="436" rx="90" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="6"/>
+  <!-- M shadow -->
+  <path d="M120 402 V158 L206 158 L272 268 L338 158 L424 158 V402 L376 402 V246 L296 366 L242 366 L168 246 V402 Z"
+        transform="translate(10,16)" fill="url(#mshadow)"/>
+  <!-- M face -->
+  <path d="M104 386 V142 L190 142 L256 252 L322 142 L408 142 V386 L360 386 V230 L280 350 L226 350 L152 230 V386 Z"
+        fill="url(#mface)"/>
+  <text x="256" y="590" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-weight="900" font-size="90" letter-spacing="16" fill="url(#frame)">BAZAAR</text>
+</svg>
